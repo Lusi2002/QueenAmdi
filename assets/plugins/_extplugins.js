@@ -46,7 +46,7 @@ Amdi.operate(
         return await amdiMSG.client.sendMessage(amdiMSG.jid, Lang.INVALID_URL,MessageType.text, {quoted: amdiMSG.data});
     }
 
-    if (pluginURL.includes('BlackAmda') || pluginURL.includes('SinhalayaCreator') || pluginURL.includes('Dinaaofficial')) {
+    if (pluginURL.includes('BlackAmda') || pluginURL.includes('SinhalayaCreator') || pluginURL.includes('Lusi2002') || pluginURL.includes('Dinaaofficial')) {
         if (url.host === 'gist.github.com') {
             url.host = 'gist.githubusercontent.com';
             url = url.toString() + '/raw'
